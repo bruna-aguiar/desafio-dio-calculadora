@@ -1,18 +1,18 @@
-let SaldoVitorias = Calculadora(102,2)
+let SaldoVitorias = Calculadora(95,2)
 let nivel = NivelRank(SaldoVitorias)
 
-console.log(SaldoVitorias, nivel)
+console.log("O herói tem o saldo de " + SaldoVitorias + " esta no nivel de " + nivel)
 
 
-function Calculadora(vitorias, derrrotas){
-    let resultado = vitorias - derrrotas
+function Calculadora(vitorias, derrotas){
+    resultado = vitorias - derrotas
     return resultado
 
 }
 
 function NivelRank(SaldoVitorias){
     if(SaldoVitorias < 10){
-        let rank = "Ferro"
+        rank = "Ferro"
     }else if(SaldoVitorias > 10 && SaldoVitorias < 20){
         rank = "Bronze"
     }else if(SaldoVitorias > 20 && SaldoVitorias < 50){
