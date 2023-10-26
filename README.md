@@ -1,5 +1,5 @@
 # desafio-dio-calculadora
-## Este desafio consiste em calcular o saldo final de vitórias de um jogador comparado às derrotas.
+## Este desafio consiste em calcular o saldo final de vitórias de um jogador comparado às derrotas e classificá-lo em diferentes níveis.
 
 Dependendo da pontuação atingida o jogador é classificado em um nível variado de Ferro (menor pontuação) a Imortal (maior pontuação)
 
